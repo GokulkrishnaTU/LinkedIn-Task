@@ -7,8 +7,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Re
 // import Section from './components/Section';
 // import RightBar from './components/RightBar';
 // import Mobile from './components/Mobile';
-import MainComponents from './components/MainComponents';
+// import MainComponents from './components/MainComponents';
 import Items from '../src/pages/Items'
+import Newmain from './components/Newmain';
 
 
 
@@ -18,7 +19,7 @@ function App() {
 
 			<Router>
 			<Routes> 	
-			<Route path="/" element={	<MainComponents/>} /> {/* Use 'element' prop */}
+			<Route path="/" element={	<Newmain/>} /> {/* Use 'element' prop */}
 			<Route path="/items" element={<Items />} />
 
 		{/* <MainComponents/> */}
